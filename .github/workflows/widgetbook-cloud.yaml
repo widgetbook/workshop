@@ -32,7 +32,6 @@ jobs:
         shell: bash
         run: flutter build web
 
-
       - name: Install Widgetbook CLI
         run: dart pub global activate widgetbook_cli
 
